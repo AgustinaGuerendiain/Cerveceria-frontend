@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Damage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icono.png">
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/captcha.js"></script>
+</head>
+<body>
+
+    <header>
+        <figure id="logoContainer">
+            <img src="img/logo.png">
+        </figure>
+        <div id="menuBtn">
+            <img src="img/btnMenu.png" id="btnIcon">
+        </div>
+    </header>
+
+    <nav id="menuNav">
+        <ul>
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="quienessomos.html">¿Quiénes somos?</a></li>
+        </ul>
+        <div id="redesNav">
+            <img src="img/iconofb.png">
+            <img src="img/iconogoogle.png">
+            <img src="img/iconoig.png">
+        </div>
+    </nav>
+
+    <div class="contenedorIndex">
+
+        <main id="mainIndex">
+            <img src="img/index/producto-destacado.png">
+        </main>
+
+        <aside>
+            <img src="img/index/2x1.png">
+            <img src="img/index/promo.png">
+        </aside>
+
+        <div class="formulario">
+            <div class="textoformulario">
+                <h1>Suscribite a nuestro newsletter</h1>
+                <h2>Recibí semanalmente</h2>
+                <ul>
+                    <li>Historia sobre la cerveza artesanal Argentina</li>
+                    <li>Cupones de descuento</li>
+                    <li>Increíbles sorteos entre los inscriptos</li>
+                </ul>
+            </div>
+
+            <form action="">
+                <label for="">Nombre y apellido: </label>
+                <input type="text" name="nombre y apellido" id="" value="">
+                <label for="">Año de nacimiento: </label>
+                <input type="number" name="año de nacimiento" id="" value="" min="1920" max="2002">
+                <label for="">E-mail: </label>
+                <input type="email" name="email" id="" value="">
+                <label for="" id="captchalabel"> Captcha: <span id="captcha"></span> </label> 
+                <input type="text" name="captcha" id="txtcaptcha">
+                    <p id="validacionCaptcha"></p>
+                <label for="" id="mensaje"> </p>
+                <button id="boton-enviar" type="button" class="">Enviar</button>
+            </form>
+        </div>
+        
+    </div>
+    <footer>
+        <img src="img/iconoig.png">
+        <img src="img/iconofb.png">
+        <img src="img/iconogoogle.png">
+    </footer>
+    
+</body>
+</html>
